@@ -1,0 +1,21 @@
+.title-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    color: var(--color-grey-0);
+}
+.listTypes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+#btn-theme{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn-price{
+    display: flex;
+    justify-content: space-between;
+}

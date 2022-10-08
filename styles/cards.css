@@ -1,0 +1,39 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-around;
+}
+.cards img{
+    width: 19em;
+}
+.cards li{
+    display: flex;
+    margin: 0.2em;
+    padding: 0.5em;
+    gap: 26px;
+    flex-direction: column;
+    background-color: var(--color-grey-7);
+}
+.list-style{
+    list-style: none;
+}
+.list-style p{
+    font-weight: 600;
+}
+.btn-categories{
+    background-color: var(--color-grey-6);
+    padding: 0.3em;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn-categories:hover{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-6);
+}
+.band-year{
+    display: flex;
+    gap: 10px;
+}
